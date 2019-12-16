@@ -42,7 +42,7 @@
                                 Memorial Jorge Texeira
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="">Nossa História</a>
+                                <a class="dropdown-item" href="../memorial_jorge_texeira/historia.jsp">Nossa História</a>
                                 <a class="dropdown-item" href="">Nossos Objetos</a>
                             </div>
                         </li>
@@ -51,7 +51,7 @@
                                 Espaço Cultural
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="">Nossa História</a>
+                                <a class="dropdown-item" href="../espaco_cultural/historia.jsp">Nossa História</a>
                                 <a class="dropdown-item" href="">Nossos Objetos</a>
                             </div>
                         </li>
