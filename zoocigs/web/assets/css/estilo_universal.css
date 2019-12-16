@@ -28,11 +28,23 @@ section{
     margin-bottom: 80px;
 }
 
+.caixa-title{
+    color: green;
+    border: 5px solid #28a745;
+    background-color: white;
+    margin-bottom: 15px;
+}
+
 .title{
-    font-weight: bold;
     text-align: center;
+    font-size: 40px;
+    margin: 0;
 }
 
 .modal-header, .modal-footer{
     background-color: rgba(40,167,59,0.6);
+}
+
+p{
+    text-align: justify;
 }
