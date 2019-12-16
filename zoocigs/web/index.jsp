@@ -56,7 +56,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="contato.jsp">Contato</a>
                         </li>
                     </ul>
                     
