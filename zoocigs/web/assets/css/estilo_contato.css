@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/12/2019, 22:12:04
+    Author     : anderson
+*/
+
+.linha{
+    margin-right: 0;
+}
+
+.caixa-mapa{
+    border: 10px solid #28a745;
+}
+
+.col-contato{
+    background: #28a745;
+    padding: 10px;
+}
+
+.caixa-contato{    
+    background: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.title-contato{
+    background-color: #28a745;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.info-contato{
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.info-contato > p, b, ul{
+    color: black;
+}
+
+.info-contato > ul{
+    padding-left: 20px;
+}
