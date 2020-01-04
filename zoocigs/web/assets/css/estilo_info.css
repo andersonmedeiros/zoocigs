@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/01/2020, 01:07:27
+    Author     : anderson
+*/
+
+.mapa{
+    padding: 0;
+}
+.endereco, .info{
+    background-color: rgb(85,217,85);
+}
+
+.texto{
+    padding: 30px;
+}
+
+.texto p, b, li{
+    color: #125e12;
+    font-family: cursive;
+}
+
+.texto b{
+    font-size: 18px;
+}
+
+.texto li, p{
+    font-size: 17px;
+}
+
+footer b{
+    color: #ffffff;
+}

@@ -10,19 +10,22 @@ and open the template in the editor.
 *{
     box-sizing: border-box;
 }
+.row{
+    margin: 0;
+}
 .alert{
     font-size: 20px;
     font-weight: bold;
 }
 
 footer{
-    color: #000;
+    color: #ffffff;
     padding-top: 6px;
     padding-bottom: 6px;
 }
 
 section{
-    margin-top: 40px;
+    margin-top: 56px;
 }
 
 .area{

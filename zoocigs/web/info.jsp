@@ -18,6 +18,7 @@
         <link rel="stylesheet" type="text/css" href="assets/node_modules/bootstrap/compiler/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="assets/css/estilo_universal.css">
         <link rel="stylesheet" type="text/css" href="assets/css/estilo_contato.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/estilo_info.css">
     </head>
     <body>
         <header>
@@ -56,8 +57,9 @@
                                 <a class="dropdown-item" href="">Nossos Objetos</a>
                             </div>
                         </li>
+                        
                         <li class="nav-item">
-                            <a class="nav-link active" href="contato.jsp">Contato</a>
+                            <a class="nav-link active" href="info.jsp">Informações</a>
                         </li>
                     </ul>
                     
@@ -75,61 +77,69 @@
                 </div>
             </nav>
         </header>
-        <section class="container-fluid col-md-10 mr-auto ml-auto area">
-            <div class="caixa-title">
-                <h1 class="title">Nossa Localização</h1>               
+        <section>
+            <div class="row">
+                <div class="col-md-12 mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9724508078275!2d-60.047193586023816!3d-3.1019776977411713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c101e5c21f049%3A0xc48233962eba08d0!2sCIGS&#39;s%20Zoo!5e0!3m2!1spt-BR!2sbr!4v1576459109793!5m2!1spt-BR!2sbr" width="100%" height="550px" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+                
             </div>
-            <div class="row linha">
-                <div class="col-md-8">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9724508078275!2d-60.047193586023816!3d-3.1019776977411713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c101e5c21f049%3A0xc48233962eba08d0!2sCIGS&#39;s%20Zoo!5e0!3m2!1spt-BR!2sbr!4v1576459109793!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" class="caixa-mapa" allowfullscreen=""></iframe>
-                </div>
-                <div class="col-md-4 col-contato">
-                    <div class="caixa-contato">
-                        <div class="title-contato">
-                            <span>Horário de Funcionamento:</span>
-                        </div>
-
-                        <div class="info-contato">
-                            <p>Terça a Sexta: 9h às 16h30 <br>
-                                Sábado, Domingos e Feriado: 9h às 17h
-                            <b>*Segunda: Fechado para manutenção</b></p>
-                        </div>
+            <div class="row">
+                <div class="col-md-4 info">
+                    <div class="texto">
+                        <b>Endereço:</b>
+                        <p>Av. São Jorge, 750, São Jorge<br>
+                            Manaus, Amazonas, Brasil</p>
+                        
+                        <b>Ônibus:</b>
+                        <ul>
+                            <li>Terminal 1 - Zoo: 120, 121, 211, 221</li>
+                            <li>Terminal 2 - Zoo: 122 </li>
+                        </ul>
                     </div>
+                </div>
+                <div class="col-md-4 info">
+                    <div class="texto">
+                        <b>Horário de Funcionamento:</b>
+                        <ul>
+                            <li>Terça a Sexta: 9h às 16h30</li>
+                            <li>Sábado, Domingos e Feriados: 9h às 17h</li>
+                            <li><span style="font-style: italic;">*Segunda: Fechado para manutenção*</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 info">
+                    <div class="texto">
+                        <b>Valores para Entrada:</b>
+                        <ul>
+                            <li>Entrada Integral: R$ 15,00  (quinze reais)</li>
+                            <li>Meia Entrada: R$ 7,50  (sete reais e ciquenta centavos)</li>
+                            <li><span style="font-style: italic;">*Direito a meia entrada: Estudantes e Residentes do Estado do Amazonas*</span></li>
+                        </ul>
+                       
+                        
+                        <b>Isentos da taxa:</b>
+                        <ul>
+                            <li>Crianças até 12 anos (acompanhadas por adulto);</li>
+                            <li>Pessoas acima de 60 anos;</li>
+                            <li>Portadores de Necessidades Especiais;</li>
+                            <li>Militares e seus dependentes (obrigatória a apresentação de identificação militar)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                
                     
-                    <div class="caixa-contato">
-                        <div class="title-contato">
-                            <span>Valores para Entrada:</span>
-                        </div>
-
-                        <div class="info-contato">
-                            <p>Moradores do Amazonas: R$ 5,00  (cinco reais)<br>
-                               Visitantes de outros estados: R$ 10,00 (dez reais)<br>
-
-                            <b>*Meia entrada: Estudantes portando documento de identidade estudantil 
-                                (não serão aceitos documentos de cursos não regulares)</b></p>
-                        </div>
-                    </div>
-                    <div class="caixa-contato" style="margin-bottom: 0px;">
-                        <div class="title-contato">
-                            <span>Isentos da taxa:</span>
-                        </div>
-                        <div class="info-contato">
-                            <ul>
-                                <li>Crianças até 12 anos (acompanhadas por adulto);</li>
-                                <li>Pessoas acima de 60 anos;</li>
-                                <li>Portadores de Necessidades Especiais;</li>
-                                <li>Militares e seus dependentes (obrigatória a apresentação de identificação militar)</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                    
             </div>
         </section>
         
-        <footer class="container-fluid bg-success text-center">
-            <b>Anderson de Paula Andrade Medeiros</b><br>
-            <b class="text-center copy">&copy; 2019</b>
-        </footer>
+        <div class="row">
+            <footer class="col-md-12 bg-success text-center">
+                <b>Anderson de Paula Andrade Medeiros</b><br>
+                <b class="text-center copy">&copy; 2019</b>
+            </footer>
+        </div>
         
         <script src="assets/node_modules/jquery/dist/jquery.js"></script>
         <script src="assets/node_modules/popper.js/dist/popper.js"></script>
