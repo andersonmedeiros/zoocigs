@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04/01/2020, 16:17:26
+    Author     : anderson
+*/
+
+.btn-link, .card-title{
+    color: rgb(18,94,18);
+    font-weight: bold;
+}
+
+.btn-link:hover{
+    color: #0f4e0f;
+}
+
+.card-img-top{
+    margin-top: 15px;
+}
+
+.row-animais{
+    margin-bottom: 15px;
+}
+
+.cardd{
+    border: 2px solid black;
+}
