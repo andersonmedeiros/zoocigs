@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03/01/2020, 23:50:40
+    Author     : anderson
+*/
+
+.hist-part{
+    background-color: rgb(85,217,85);
+}
+
+.texto{
+    padding: 30px;
+}
+
+.texto p{
+    color: #125e12;
+    font-family: cursive;
+   
+}
+
+.backgroundImagem{
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
