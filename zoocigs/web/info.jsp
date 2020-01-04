@@ -80,12 +80,12 @@
         <section>
             <div class="row">
                 <div class="col-md-12 mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9724508078275!2d-60.047193586023816!3d-3.1019776977411713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c101e5c21f049%3A0xc48233962eba08d0!2sCIGS&#39;s%20Zoo!5e0!3m2!1spt-BR!2sbr!4v1576459109793!5m2!1spt-BR!2sbr" width="100%" height="550px" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.9724508078275!2d-60.047193586023816!3d-3.1019776977411713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c101e5c21f049%3A0xc48233962eba08d0!2sCIGS&#39;s%20Zoo!5e0!3m2!1spt-BR!2sbr!4v1576459109793!5m2!1spt-BR!2sbr" width="100%" height="300px" frameborder="0" allowfullscreen=""></iframe>
                 </div>
                 
             </div>
             <div class="row">
-                <div class="col-md-4 info">
+                <div class="col-md-3 info-endereco">
                     <div class="texto">
                         <b>Endereço:</b>
                         <p>Av. São Jorge, 750, São Jorge<br>
@@ -98,17 +98,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-4 info">
-                    <div class="texto">
-                        <b>Horário de Funcionamento:</b>
-                        <ul>
-                            <li>Terça a Sexta: 9h às 16h30</li>
-                            <li>Sábado, Domingos e Feriados: 9h às 17h</li>
-                            <li><span style="font-style: italic;">*Segunda: Fechado para manutenção*</span></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-4 info">
+               <div class="col-md-3 info-entrada">
                     <div class="texto">
                         <b>Valores para Entrada:</b>
                         <ul>
@@ -116,14 +106,26 @@
                             <li>Meia Entrada: R$ 7,50  (sete reais e ciquenta centavos)</li>
                             <li><span style="font-style: italic;">*Direito a meia entrada: Estudantes e Residentes do Estado do Amazonas*</span></li>
                         </ul>
-                       
-                        
+                    </div>
+               </div>
+                <div class="col-md-3 info-isencao ">
+                    <div class="texto">
                         <b>Isentos da taxa:</b>
                         <ul>
                             <li>Crianças até 12 anos (acompanhadas por adulto);</li>
                             <li>Pessoas acima de 60 anos;</li>
                             <li>Portadores de Necessidades Especiais;</li>
                             <li>Militares e seus dependentes (obrigatória a apresentação de identificação militar)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 info-horario">
+                    <div class="texto">
+                        <b>Horário de Funcionamento:</b>
+                        <ul>
+                            <li>Terça a Sexta: 9h às 16h30</li>
+                            <li>Sábado, Domingos e Feriados: 9h às 17h</li>
+                            <li><span style="font-style: italic;">*Segunda: Fechado para manutenção*</span></li>
                         </ul>
                     </div>
                 </div>

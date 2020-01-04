@@ -8,30 +8,30 @@ and open the template in the editor.
     Author     : anderson
 */
 
+body{
+    background-color: rgb(18,94,18);
+}
+
 .mapa{
     padding: 0;
 }
-.endereco, .info{
-    background-color: rgb(85,217,85);
+.info-endereco{
+    background-color: rgb(24,127,24);
+}
+.info-entrada{
+    background-color: rgb(27,143,27);
+}
+.info-isencao{
+    background-color: rgb(31,160,31);
+}
+.info-horario{
+    background-color: rgb(34,176,34);
 }
 
 .texto{
     padding: 30px;
 }
 
-.texto p, b, li{
-    color: #125e12;
-    font-family: cursive;
-}
-
-.texto b{
-    font-size: 18px;
-}
-
-.texto li, p{
-    font-size: 17px;
-}
-
-footer b{
-    color: #ffffff;
+.texto p, b, li, footer{
+    color: rgb(255,255,255);
 }
