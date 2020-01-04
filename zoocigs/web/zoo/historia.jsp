@@ -77,7 +77,7 @@
         </header>
         <section>
             <div class="row">
-                <div class="hist-part col-md-6">
+                <div class="hist-part-1 col-md-6">
                     <div class="texto">
                         <p>Zoológico do Centro de Instrução de Guerra na Selva – ZOO CIGS, 
                             foi idealizado e construído no comando do então Tenente Coronel 
@@ -99,15 +99,15 @@
                             desses visitantes são alunos da rede pública de ensino, crianças, 
                             adolescentes e jovens que estão firmando suas convicções referentes 
                             à conservação e preservação ambiental.</p>
-                    </div>
-                    
+                    </div>                    
                 </div>
-                <div class="backgroundImagem col-md-6" style="background-image: url(../assets/img/zoo/historia/hist-zoo-01.jpg)"></div>
+                <div class="hist-img col-md-6">
+                    <img src="../assets/img/zoo/historia/hist-zoo-01.jpg">
+                </div>
             </div>
-            <div class="row">
-                <div class="backgroundImagem col-md-6" style="background-image: url(../assets/img/zoo/historia/hist-zoo-04.jpg)"></div>
-                <div class="hist-part col-md-6">
-                    <div class="texto">
+            <div class="row">                
+                <div class="hist-part-2 col-md-6 order-md-2">
+                    <div class="texto ">
                         <p>O ZOO CIGS também é composto pela Sala Entomológica, o Aquário 
                             Amazônico, Memorial Jorge Teixeira e a Oca do Conhecimento Ambiental, 
                             que foi inaugurado em 2014 e é administrado pela Divisão de Veterinária 
@@ -118,10 +118,12 @@
                             sensibilizem as pessoas para o respeito à vida”.</p>
                     </div>
                 </div>
-                                
+                <div class="hist-img col-md-6 order-md-1">
+                    <img src="../assets/img/zoo/historia/hist-zoo-04.jpg">
+                </div>                                
             </div>
             <div class="row">                
-                <div class="hist-part col-md-6">
+                <div class="hist-part-3 col-md-6">
                     <div class="texto">
                         <p>Inaugurado em março de 1967, ocupando uma área de 6.000 m², coberta 
                             em sua maior parte de vegetação amazônica, o ZOO CIGS aloja 469 animais, 
@@ -144,7 +146,9 @@
                             dentro de uma área militar, oferecendo total segurança.</p>
                     </div>
                 </div>
-                <div class="backgroundImagem col-md-6" style="background-image: url(../assets/img/zoo/historia/hist-zoo-02.jpg)"></div>                
+                <div class="hist-img col-md-6">
+                    <img src="../assets/img/zoo/historia/hist-zoo-02.jpg">
+                </div>                
             </div>
         </section>
         <div class="row">

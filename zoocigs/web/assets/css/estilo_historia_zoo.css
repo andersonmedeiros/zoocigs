@@ -7,9 +7,18 @@ and open the template in the editor.
     Created on : 03/01/2020, 23:50:40
     Author     : anderson
 */
+body{
+    background-color: rgb(18,94,18);
+}
 
-.hist-part{
-    background-color: rgb(85,217,85);
+.hist-part-1{
+    background-color: rgb(24,127,24);
+}
+.hist-part-2{
+    background-color: rgb(27,143,27);
+}
+.hist-part-3{
+    background-color: rgb(31,160,31);
 }
 
 .texto{
@@ -17,14 +26,15 @@ and open the template in the editor.
 }
 
 .texto p{
-    color: #125e12;
+    color: rgb(255,255,255);
     font-family: cursive;
-   
 }
 
-.backgroundImagem{
+.hist-img{
     padding: 0;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+img{
+    width: 100%;
+    height: 100%;
 }
