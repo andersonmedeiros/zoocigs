@@ -36,7 +36,7 @@
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="zoo/historia.jsp">Nossa História</a>
-                                <a class="dropdown-item" href="">Nossos Animais</a>
+                                <a class="dropdown-item" href="zoo/animais.jsp">Nossos Animais</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
